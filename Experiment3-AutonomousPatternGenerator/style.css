@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#hint {
+  position: fixed;
+  top: 16px;
+  left: 20px;
+  font-size: 13px;
+  opacity: 0.35;
+  letter-spacing: 0.08em;
+  pointer-events: none;
+  color: white;
+  font-family: monospace;
+  z-index: 999;
+}
